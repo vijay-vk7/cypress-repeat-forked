@@ -74,8 +74,6 @@ parseArguments()
         if (runOptions.ciBuildId) { delete runOptions.ciBuildId; }
       }
 
-      console.log(`this is the run option for run ${k} and the value is ${JSON.stringify(runOptions)}`);
-
       const envVariables = `cypress_repeat_n=${repeatNtimes},cypress_repeat_k=${
         k + 1
       }`;

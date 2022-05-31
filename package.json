@@ -1,6 +1,6 @@
 {
-  "name": "cypress-repeat",
-  "version": "0.0.0-development",
+  "name": "cypress-repeat-forked",
+  "version": "0.0.1",
   "description": "Run Cypress multiple times in a row",
   "bin": {
     "cypress-repeat": "index.js"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahmutov/cypress-repeat.git"
+    "url": "https://github.com/vijay-vk7/cypress-repeat-forked"
   },
   "keywords": [
     "cypress",
@@ -26,9 +26,9 @@
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bahmutov/cypress-repeat/issues"
+    "url": "https://github.com/vijay-vk7/cypress-repeat-forked/issues"
   },
-  "homepage": "https://github.com/bahmutov/cypress-repeat#readme",
+  "homepage": "https://github.com/vijay-vk7/cypress-repeat-forked#readme",
   "devDependencies": {
     "@types/node": "14.10.1",
     "cypress": "8.7.0",
