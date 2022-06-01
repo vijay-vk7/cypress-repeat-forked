@@ -72,6 +72,8 @@ parseArguments()
       if (k !== 0) {
         if (runOptions.parallel) { delete runOptions.parallel; }
         if (runOptions.ciBuildId) { delete runOptions.ciBuildId; }
+        if (runOptions.record) { delete runOptions.record; }
+        if (runOptions.key) { delete runOptions.key; }
       }
 
       const envVariables = `cypress_repeat_n=${repeatNtimes},cypress_repeat_k=${
